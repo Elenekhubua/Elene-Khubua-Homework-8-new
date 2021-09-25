@@ -1,13 +1,15 @@
   
 @media(max-width:1024px){
     .header-div{
-        width: 900px;
+        max-width: 900px;
+        width: 100%;
     }
     .li-text{
         font-size: 15px;
     }
     .section1{
-        width: 900px;
+        max-width: 900px;
+        width: 100%;
         height: auto;
     }
     .left-box-heading{
@@ -19,24 +21,29 @@
         height: auto;
     }
     .right-box{
-        width: 500px;
+        max-width: 500px;
+        width: 100%;
     }
     .program-image{
         width: 100%;
     }
     .section2{
-        width:900px;
+        max-width:900px;
+        width: 100%;
     }
 }
 @media(max-width:768px){
     .header-div{
-        width: 600px;
+        max-width: 600px;
+        width: 100%;
     }
     .nav-div{
-        width: 400px;
+        max-width: 400px;
+        width: 100%;
     }
     .section1{
-        width: 600px;
+        max-width: 600px;
+        width: 100%;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -45,7 +52,8 @@
         margin-top: 50px;
     }
     .section2{
-        width: 600px;
+        max-width: 600px;
+        width: 100%;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -60,26 +68,30 @@
     }
     .header-div{
         display: flex;
-        width: 285px;
+        max-width: 285px;
+        width: 100%;
         justify-content: space-between;
     }
     .fa-bars{
         display: block;
     }
     .logo-div{
-        width: 100px;
+        max-width: 100px;
+        width: 100%;
     }
     .logo{
         width: 100%;
     }
     .section1{
         flex-direction: column;
-        width: 295px;
+        max-width: 295px;
+        width: 100%;
         height: auto;
         align-items: center;
     }
     .left-box{
-        width: 280px;
+        max-width: 280px;
+        width: 100%;
         height: auto; 
     }
     .left-box-heading{
@@ -91,7 +103,8 @@
         margin-bottom: 50px;
     }
     .left-box-div{
-        width: 90px;
+        max-width: 90px;
+        width: 100%;
         height: auto;
     }
     .left-box-text2{
@@ -101,7 +114,8 @@
         width: 25px;
     }
     .right-box{
-        width: 285px;
+        max-width: 285px;
+        width: 100%;
         height: auto;
         margin-top: 30px;
     }
@@ -109,13 +123,16 @@
         width: 100%;
     }
     .section2{
-        width: 295px;
+        max-width: 295px;
+        width: 100%;
     }
     .container{
-        width: 295px;
+        max-width: 295px;
+        width: 100%;
     }
     .container-heading{
-        width:200px;
+        max-width:200px;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         margin: 10px auto;
@@ -127,9 +144,11 @@
         font-size: 15px;
     }
     .container-heading-text{
-        width: 200px;
+        max-width: 200px;
+        width: 100%;
     }
     .box{
-        width: 230px;
+        max-width: 230px;
+        width: 100%;
     }
 }
