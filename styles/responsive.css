@@ -14,10 +14,12 @@
     }
     .left-box-heading{
         font-size: 30px;
-        width: 270px;
+        max-width: 270px;
+        width: 100%;
     }
     .left-box-div{
-        width: 150px;
+        max-width: 150px;
+        width: 100%;
         height: auto;
     }
     .right-box{
