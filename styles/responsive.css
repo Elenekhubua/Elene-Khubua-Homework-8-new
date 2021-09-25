@@ -63,6 +63,27 @@
         height: auto;
     }   
 }
+@media(max-width:550px){
+    .nav-div{
+        display: none;
+    }
+    .header-div{
+        max-width:450px;
+        width: 100%;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .section1{
+        max-width:450px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 @media(max-width:450px){
     .nav-div{
         display: none;
