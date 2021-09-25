@@ -1,0 +1,135 @@
+  
+@media(max-width:1024px){
+    .header-div{
+        width: 900px;
+    }
+    .li-text{
+        font-size: 15px;
+    }
+    .section1{
+        width: 900px;
+        height: auto;
+    }
+    .left-box-heading{
+        font-size: 30px;
+        width: 270px;
+    }
+    .left-box-div{
+        width: 150px;
+        height: auto;
+    }
+    .right-box{
+        width: 500px;
+    }
+    .program-image{
+        width: 100%;
+    }
+    .section2{
+        width:900px;
+    }
+}
+@media(max-width:768px){
+    .header-div{
+        width: 600px;
+    }
+    .nav-div{
+        width: 400px;
+    }
+    .section1{
+        width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-box{
+        height: auto;
+        margin-top: 50px;
+    }
+    .section2{
+        width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .right-box{
+        height: auto;
+    }
+}
+
+@media(max-width:320px){
+    .nav-div{
+        display: none;
+    }
+    .header-div{
+        display: flex;
+        width: 285px;
+        justify-content: space-between;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .logo-div{
+        width: 100px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .section1{
+        flex-direction: column;
+        width: 295px;
+        height: auto;
+        align-items: center;
+    }
+    .left-box{
+        width: 280px;
+        height: auto; 
+    }
+    .left-box-heading{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .left-box-text{
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+    .left-box-div{
+        width: 90px;
+        height: auto;
+    }
+    .left-box-text2{
+        font-size: 8px;
+    }
+    .waving-hand{
+        width: 25px;
+    }
+    .right-box{
+        width: 285px;
+        height: auto;
+        margin-top: 30px;
+    }
+    .program-image{
+        width: 100%;
+    }
+    .section2{
+        width: 295px;
+    }
+    .container{
+        width: 295px;
+    }
+    .container-heading{
+        width:200px;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto;
+    }
+    .container-heading1{
+        font-size: 10px;
+    }
+    .container-heading2{
+        font-size: 15px;
+    }
+    .container-heading-text{
+        width: 200px;
+    }
+    .box{
+        width: 230px;
+    }
+}
